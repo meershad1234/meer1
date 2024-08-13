@@ -31,6 +31,7 @@ echo ".env file created."
 
 echo "Configuring Hardhat..."
 cat <<EOL > hardhat.config.js
+
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
